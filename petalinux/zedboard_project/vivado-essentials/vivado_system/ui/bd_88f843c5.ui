@@ -1,0 +1,61 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 890 -defaultsOSRD
+preplace port xillybus_S_AXI -pg 1 -y 1050 -defaultsOSRD
+preplace port GPIO_0 -pg 1 -y 870 -defaultsOSRD
+preplace port user_clk -pg 1 -y 490 -defaultsOSRD
+preplace port user_rden -pg 1 -y 530 -defaultsOSRD
+preplace port xillybus_bus_clk -pg 1 -y 1090 -defaultsOSRD
+preplace port xillybus_host_interrupt -pg 1 -y 1130 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 910 -defaultsOSRD
+preplace port user_wren -pg 1 -y 510 -defaultsOSRD
+preplace port xillybus_bus_rst_n -pg 1 -y 1110 -defaultsOSRD
+preplace port user_irq -pg 1 -y 550 -defaultsOSRD
+preplace port xillybus_M_AXI -pg 1 -y 1030 -defaultsOSRD
+preplace port USBIND_0 -pg 1 -y 930 -defaultsOSRD
+preplace portBus user_wstrb -pg 1 -y 550 -defaultsOSRD
+preplace portBus user_wr_data -pg 1 -y 570 -defaultsOSRD
+preplace portBus user_addr -pg 1 -y 590 -defaultsOSRD
+preplace portBus user_rd_data -pg 1 -y 570 -defaultsOSRD
+preplace inst xillybus_lite_0 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 760 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -y 200 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 850 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -y 920 -defaultsOSRD
+preplace inst xillybus_ip_0 -pg 1 -lvl 3 -y 1070 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 4 1 NJ
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 730
+preplace netloc xillybus_lite_0_user_wstrb 1 4 1 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 4 410 1030 710J 950 1120J 1050 1600
+preplace netloc xillybus_lite_0_user_clk 1 4 1 NJ
+preplace netloc xillybus_lite_0_user_addr 1 4 1 NJ
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 2 710 490 NJ
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 3 380 1060 750 530 NJ
+preplace netloc processing_system7_0_FCLK_RESET1_N 1 0 5 20 1040 NJ 1040 720J 790 NJ 790 1610
+preplace netloc processing_system7_0_USBIND_0 1 4 1 NJ
+preplace netloc user_rd_data_1 1 0 4 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc xillybus_ip_0_Interrupt 1 2 2 750 420 1100
+preplace netloc xlconcat_0_dout 1 3 1 1140
+preplace netloc xillybus_ip_0_xillybus_bus_rst_n 1 3 2 NJ 1110 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 NJ
+preplace netloc xillybus_ip_0_xillybus_S_AXI 1 3 2 1110J 1060 1620J
+preplace netloc user_irq_1 1 0 4 NJ 550 NJ 550 NJ 550 NJ
+preplace netloc xillybus_M_AXI_1 1 0 3 10J 1050 NJ 1050 730J
+preplace netloc processing_system7_0_GPIO_0 1 4 1 NJ
+preplace netloc xillybus_ip_0_m_axi 1 3 1 1130
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 1 400
+preplace netloc xillybus_lite_0_user_wren 1 4 1 NJ
+preplace netloc xillybus_lite_0_user_wr_data 1 4 1 NJ
+preplace netloc xillybus_lite_0_user_rden 1 4 1 NJ
+preplace netloc xillybus_lite_0_host_interrupt 1 2 3 710 410 NJ 410 1620
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 5 10 860 390 1070 740 930 1120 780 1620
+preplace netloc xillybus_ip_0_xillybus_bus_clk 1 3 2 NJ 1090 NJ
+preplace netloc xillybus_host_interrupt_1 1 0 3 NJ 1130 NJ 1130 NJ
+levelinfo -pg 1 -10 200 560 930 1390 1670 -top -10 -bot 1430
+",
+}
+{
+   da_axi4_cnt: "3",
+}
